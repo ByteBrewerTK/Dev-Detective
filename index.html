@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <script src="./script.js" defer></script>
+    <title>DevDetective</title>
+</head>
+<body>
+    <div class="wrapper">
+        <div class="container">
+            <div class="header">
+                <h2 class="tittle">DevDetective</h2>
+                <div class="dark-mode">
+                    <label for="mode" id="mode-label">LIGHT</label>
+                    <button id="mode"><i class="bx bxs-moon" ></i></button>
+                </div>
+            </div>
+
+            <div class="search-bar">
+                <div class="search-input">
+                    <i class="bx bx-search"></i>
+                    <input type="text" class="search" placeholder="Enter a GitHub username...">
+                    <p class="not-found">user not found !</p>
+                    <button class="btn-search">Search</button>
+                </div>
+            </div>
+
+            <div class="main-section">
+                <div class="image-sec">
+                    <span class="avatar">
+                        <img src="#">
+                    </span>
+                </div>
+                <div class="details">
+                    <div class="details-heading">
+                        <h2 class="name"></h2>
+                        <div class="joined-date">
+                            <span class="date-join"></span>
+                        </div>
+                    </div>
+                    <a href="#" class="user-name"></a>
+                    <p class="bio"></p>
+                    <div class="data">
+                        <div class="repos">
+                            <p class="repo-tittle">Repos</p>
+                            <span class="repo-count"></span>
+                        </div>
+
+                        <div class="followers">
+                            <p class="follower-tittle">Followers</p>
+                            <span class="follower-count"></span>
+
+                        </div>
+
+                        <div class="following">
+                            <p class="following-tittle">Following</p>
+                            <span class="following-count"></span>
+                        </div>
+                    </div>
+
+                    <div class="links">
+                        <div class="location">
+                            <i class="bx bxs-map" ></i>
+                            <a href="#" class="location-data"></a>
+                        </div>
+
+                        <div class="bio-link">
+                            <i class="bx bx-link" ></i>
+                            <a href="#" class="bio-data"></a>
+                        </div>
+
+                        <div class="twitter">
+                            <i class="bx bxl-twitter"></i>
+                            <a href="#" class="twitter-user"></a>
+                        </div>
+
+                        <div class="company">
+                            <i class="bx bxs-buildings"></i>
+                            <a href="#" class="company-name"></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
